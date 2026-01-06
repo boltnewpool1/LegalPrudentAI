@@ -34,7 +34,7 @@ const Footer = () => {
     if (newCount >= 1) {
       setEasterEggActive(true);
       setTimeout(() => {
-        window.open("https://abhishekhdey.rf.gd/", "_blank");
+        window.open("https://abhishekhdey.tech/", "_blank");
         setEasterEggActive(false);
         setClickCount(0);
       }, 1500);
